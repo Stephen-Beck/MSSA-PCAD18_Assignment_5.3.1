@@ -94,10 +94,7 @@ namespace Assignment_5._3._1
 
             // If array length is 1
             if (flowerbed.Length == 1)
-            {
-                if (flowerbed[0] == 0 && numFlowers <= 1) return true;
-                else return false;
-            }
+                return (flowerbed[0] == 0 && numFlowers <= 1);
             
             // If array length > 1
             int plantableFlowers = 0;
